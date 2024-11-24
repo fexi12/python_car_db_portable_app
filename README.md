@@ -1,29 +1,28 @@
-# Car Portable AP
+# Car Database Portable Application
 
-A lightweight and efficient portable access point (AP) solution for vehicles, allowing seamless connectivity while on the go. This project is designed to be easily deployable, offering network sharing and management features.
+This project is a portable application designed to manage a comprehensive car database. It allows users to efficiently store, retrieve, and manage information about various vehicles.
 
 ## Features
 
-- Create a portable access point in a vehicle.
-- Configure network settings with ease.
-- Lightweight and optimized for low-power devices.
-- Fully customizable and modular for various use cases.
+- **Comprehensive Car Database**: Store detailed information about a wide range of vehicles, including make, model, year, and specifications.
+- **User-Friendly Interface**: Navigate and manage the database with an intuitive and easy-to-use interface.
+- **Portability**: Designed to run on various platforms without the need for complex installations.
+- **Search and Filter**: Quickly find specific vehicles using robust search and filtering options.
+- **Data Import/Export**: Easily import and export data to and from the database.
 
-## How It Works
+## Installation
 
-The project leverages open-source tools and configurations to create a reliable wireless access point. With minimal dependencies and straightforward setup instructions, it can be installed on most Linux-based devices.
-
-## Setup Instructions
-
-### Prerequisites
-
-- A Linux-based device (e.g., Raspberry Pi, Linux laptop, etc.)
-- Wi-Fi adapter that supports AP mode.
-- Basic knowledge of Linux command line.
-
-### Installation
-
-1. Clone the repository:
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/fexi12/car_portable_ap.git
-   cd car_portable_ap
+   git clone https://github.com/fexi12/python_car_db_portable_app.git
+
+## Usage
+
+- **Add New Vehicles**: Input detailed information about new cars to add to the database.
+- **View Existing Entries**: Browse through the list of cars currently in the database.
+- **Search and Filter**: Use the search bar and filters to locate specific vehicles based on various criteria.
+- **Edit or Delete Entries**: Modify or remove existing car entries as needed.
+
+## Acknowledgements
+
+This project was created with the assistance of ChatGPT, an AI language model by OpenAI. Every aspect of this solution was designed and documented with collaborative input from the AI.
