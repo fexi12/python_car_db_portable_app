@@ -45,20 +45,28 @@
             </div>
             <div class="cell small-12">
                 <label for="estado_geral">Estado Geral</label>
-                <textarea name="estado_geral" >{{ vehicle['estado_geral'] }}</textarea>
+                <textarea name="estado_geral" rows="5">{{ vehicle['estado_geral'] }}</textarea>
             </div>
 
             <!-- Display existing photos -->
             <div class="cell small-12">
                 <label for="photos">Fotos atuais</label>
-                <ul>
-                    {% for photo in vehicle['photos'] %}
-                        <li>
-                            <img src="{{ url_for('static', filename='uploads/' ~ photo) }}" alt="Vehicle Photo" style="max-width: 80vh;">
-                            <input type="checkbox" name="photos_to_delete" value="{{ photo }}"> Delete this photo
-                        </li>
-                    {% endfor %}
-                </ul>
+                {% if vehicle['photos'] %}
+                    <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4">
+                        {% for photo in vehicle['photos'] %}
+                            <div class="cell">
+                                <a href="{{ url_for('static', filename='uploads/' + photo) }}" data-open="lightbox">
+                                    <img src="{{ url_for('static', filename='uploads/' + photo) }}" alt="Vehicle Photo" style="width: 100%; height: auto; border: 1px solid #ccc; padding: 5px;">
+                                </a>
+                                <div class="text-center">
+                                    <input type="checkbox" name="photos_to_delete" value="{{ photo }}"> Delete this photo
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <p>No photos available.</p>
+                {% endif %}
             </div>
 
             <!-- New photos upload -->

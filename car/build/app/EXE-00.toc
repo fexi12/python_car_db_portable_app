@@ -170,45 +170,13 @@
    'C:\\Users\\Francisco '
    'Aires\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\sqlite3.dll',
    'BINARY'),
-  ('database.py\\database.py',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\database.py',
-   'DATA'),
-  ('databse.db\\database.db',
+  ('database.db',
    'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
    'Work\\python_car_db_portable_app\\car\\database.db',
    'DATA'),
   ('static\\css\\styles.css',
    'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
    'Work\\python_car_db_portable_app\\car\\static\\css\\styles.css',
-   'DATA'),
-  ('static\\uploads\\1703249230044.jpg',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\1703249230044.jpg',
-   'DATA'),
-  ('static\\uploads\\Imagem1.jpg',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\Imagem1.jpg',
-   'DATA'),
-  ('static\\uploads\\Imagem2.jpg',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\Imagem2.jpg',
-   'DATA'),
-  ('static\\uploads\\Liferay.png',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\Liferay.png',
-   'DATA'),
-  ('static\\uploads\\avatar.png',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\avatar.png',
-   'DATA'),
-  ('static\\uploads\\carro.jpg',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\carro.jpg',
-   'DATA'),
-  ('static\\uploads\\wp2184769-184046912.jpg',
-   'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
-   'Work\\python_car_db_portable_app\\car\\static\\uploads\\wp2184769-184046912.jpg',
    'DATA'),
   ('templates\\create_vehicle.html',
    'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
@@ -230,85 +198,33 @@
    'C:\\Users\\Francisco Aires\\Documents\\Personal\\Aires '
    'Work\\python_car_db_portable_app\\car\\build\\app\\base_library.zip',
    'DATA'),
-  ('werkzeug-3.1.2.dist-info\\INSTALLER',
+  ('itsdangerous-2.2.0.dist-info\\RECORD',
    'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\INSTALLER',
-   'DATA'),
-  ('flask-3.0.3.dist-info\\REQUESTED',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\REQUESTED',
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\RECORD',
    'DATA'),
   ('blinker-1.8.2.dist-info\\WHEEL',
    'C:\\Users\\Francisco '
    'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\WHEEL',
    'DATA'),
-  ('werkzeug-3.1.2.dist-info\\RECORD',
+  ('flask-3.0.3.dist-info\\REQUESTED',
    'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\RECORD',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info\\LICENSE.txt',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('blinker-1.8.2.dist-info\\INSTALLER',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\INSTALLER',
-   'DATA'),
-  ('flask-3.0.3.dist-info\\RECORD',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\RECORD',
-   'DATA'),
-  ('flask-3.0.3.dist-info\\LICENSE.txt',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('flask-3.0.3.dist-info\\INSTALLER',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\INSTALLER',
-   'DATA'),
-  ('werkzeug-3.1.2.dist-info\\LICENSE.txt',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('flask-3.0.3.dist-info\\WHEEL',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\WHEEL',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info\\INSTALLER',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\INSTALLER',
-   'DATA'),
-  ('blinker-1.8.2.dist-info\\METADATA',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\METADATA',
-   'DATA'),
-  ('blinker-1.8.2.dist-info\\RECORD',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\RECORD',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info\\WHEEL',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\WHEEL',
-   'DATA'),
-  ('flask-3.0.3.dist-info\\entry_points.txt',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\entry_points.txt',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info\\METADATA',
-   'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\METADATA',
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\REQUESTED',
    'DATA'),
   ('blinker-1.8.2.dist-info\\LICENSE.txt',
    'C:\\Users\\Francisco '
    'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\LICENSE.txt',
    'DATA'),
-  ('itsdangerous-2.2.0.dist-info\\RECORD',
+  ('flask-3.0.3.dist-info\\entry_points.txt',
    'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\RECORD',
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\entry_points.txt',
    'DATA'),
-  ('flask-3.0.3.dist-info\\METADATA',
+  ('flask-3.0.3.dist-info\\LICENSE.txt',
    'C:\\Users\\Francisco '
-   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\METADATA',
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\RECORD',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\RECORD',
    'DATA'),
   ('werkzeug-3.1.2.dist-info\\METADATA',
    'C:\\Users\\Francisco '
@@ -317,11 +233,63 @@
   ('werkzeug-3.1.2.dist-info\\WHEEL',
    'C:\\Users\\Francisco '
    'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\WHEEL',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\INSTALLER',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('werkzeug-3.1.2.dist-info\\INSTALLER',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\METADATA',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\WHEEL',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\WHEEL',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.2.dist-info\\RECORD',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\RECORD',
+   'DATA'),
+  ('werkzeug-3.1.2.dist-info\\LICENSE.txt',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug-3.1.2.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\RECORD',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\RECORD',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\METADATA',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\METADATA',
+   'DATA'),
+  ('blinker-1.8.2.dist-info\\INSTALLER',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\blinker-1.8.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('flask-3.0.3.dist-info\\METADATA',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask-3.0.3.dist-info\\METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'C:\\Users\\Francisco '
+   'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\INSTALLER',
    'DATA')],
  [],
  False,
  False,
- 1731720782,
+ 1744585173,
  [('run.exe',
    'C:\\Users\\Francisco '
    'Aires\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

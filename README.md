@@ -20,7 +20,6 @@ This project is a portable application designed to manage a comprehensive car da
 
 - **Add New Vehicles**: Input detailed information about new cars to add to the database.
 - **View Existing Entries**: Browse through the list of cars currently in the database.
-- **Search and Filter**: Use the search bar and filters to locate specific vehicles based on various criteria.
 - **Edit or Delete Entries**: Modify or remove existing car entries as needed.
 
 ## Acknowledgements

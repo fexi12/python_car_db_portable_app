@@ -38,18 +38,17 @@
             <tbody>
                 {% for vehicle in vehicles %}
                     <tr>
-                        <td>{{ vehicle['marca'] }}</td>  <!-- Marca -->
-                        <td>{{ vehicle['modelo'] }}</td>  <!-- Modelo -->
-                        <td>{{ vehicle['ano'] }}</td>  <!-- Ano -->
-                        <td>{{ vehicle['local_garagem'] }}</td> <!-- Local | Garagem -->
+                        <td>{{ vehicle['marca'] | default('N/A') }}</td>  <!-- Marca -->
+                        <td>{{ vehicle['modelo'] | default('N/A') }}</td>  <!-- Modelo -->
+                        <td>{{ vehicle['ano'] | default('N/A') }}</td>  <!-- Ano -->
+                        <td>{{ vehicle['local_garagem'] | default('N/A') }}</td> <!-- Local | Garagem -->
                         <td>
                             {% if vehicle['first_photo'] %}
-                            <img src="static/uploads/{{ vehicle['first_photo'] }}" alt="Vehicle Image" style="max-width: 100px;">
-                            {% else %}
-                                <p>No photo</p>
+                                <img src="{{ url_for('static', filename='uploads/' + vehicle['first_photo']) }}" alt="Vehicle" style="max-width: 100px;">
+                                
+                            {% else %}<p>No photo</p>
                             {% endif %}
                         </td>
-                        
                         <td>
                             <a href="{{ url_for('edit_vehicle', vehicle_id=vehicle['id']) }}" class="button warning">Editar</a>
                             <button class="button alert" onclick="openModal('{{ vehicle['id'] }}')">Apagar</button>

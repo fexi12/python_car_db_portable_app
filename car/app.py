@@ -13,7 +13,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Required for flash messages
 
  # Create this folder in your project
-UPLOAD_FOLDER = 'static/uploads' 
+UPLOAD_FOLDER = '\\static\\uploads' 
+#UPLOAD_FOLDER = os.path.join('static', 'uploads')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 # Print current working directory and template folder
 print("Current Working Directory:", os.getcwd())
@@ -86,6 +87,7 @@ def add_vehicle():
         for photo in photos:
             if photo and photo.filename:
                 photo_filename = os.path.join(app.config['UPLOAD_FOLDER'], photo.filename)
+                print("Saving photo:", photo_filename)  # Debugging line
                 photo.save(photo_filename)
 
                 # Insert the photo into the vehicle_photos table
@@ -205,16 +207,30 @@ def shutdown():
     shutdown_flag = True  # Set the flag to indicate shutdown
     return jsonify({"message": "Server will shut down after processing current requests..."}), 200
 
+@app.route('/static/uploads/<filename>')
+def uploaded_file(filename):
+    print("Serving file:", filename)
+    print("Serving config:", app.config['UPLOAD_FOLDER'])
+    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
+
 def run():
+    global shutdown_flag
     while not shutdown_flag:
         time.sleep(1)  # Keep the server running
     print("Shutting down...")  # Placeholder for actual shutdown code
     os._exit(0)  # Forcefully exit the program
 
 if __name__ == "__main__":
+
+    threading.Thread(target=run, daemon=True).start()
+
     if not os.path.exists(UPLOAD_FOLDER):
         os.makedirs(UPLOAD_FOLDER)
-    # Start the Flask app in a separate thread
 
+    webbrowser.open("http://127.0.0.1:5000", new=1)
+
+    app.run(debug=True, host='127.0.0.1', port=5000)
+
+    # Start the Flask app in a separate thread
     # Open the default web browser after the server starts
-    webbrowser.open("http://127.0.0.1:5000", new=2)
+    
