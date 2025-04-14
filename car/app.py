@@ -13,8 +13,9 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Required for flash messages
 
  # Create this folder in your project
-UPLOAD_FOLDER = '\\static\\uploads' 
+#UPLOAD_FOLDER = '\\static\\uploads' 
 #UPLOAD_FOLDER = os.path.join('static', 'uploads')
+UPLOAD_FOLDER = os.path.join(os.getcwd(), 'static', 'uploads')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 # Print current working directory and template folder
 print("Current Working Directory:", os.getcwd())
